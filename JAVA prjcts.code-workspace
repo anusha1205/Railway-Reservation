@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../JAVA prbs projects"
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}
