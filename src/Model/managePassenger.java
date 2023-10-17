@@ -16,7 +16,7 @@ public class managePassenger extends fileHandlingPassenger implements Displayabl
     int highlightedLine;
 
     public managePassenger(){
-        readJsonFile("src/Model/passengers.json");
+//        readJsonFile("src/Model/passengers.json");
     }
 
     public ArrayList<Passenger> readJsonFile(String file_path) {
@@ -109,6 +109,7 @@ public class managePassenger extends fileHandlingPassenger implements Displayabl
         }
         return passengers_subset;
     }
+
 
     @Override
     public int getFirstLineToDisplay() {
